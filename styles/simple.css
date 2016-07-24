@@ -3,6 +3,9 @@ body, html {
     margin: 0;
     padding: 0;
 }
+body {
+    margin-bottom: 27px;
+}
 .header {
     width: 100%;
     text-align: center;
@@ -27,6 +30,18 @@ body, html {
     text-align: center;
     margin-top: 20px;
     font-size: 19px;
+}
+.footer {
+    width: 100%;
+    background-color: #F6F6F6;
+    font-size: 18px;
+    padding: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    height: 27px;
+    bottom: 0;
 }
 a {
     color: black;
