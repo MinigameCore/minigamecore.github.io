@@ -25,12 +25,6 @@ body {
 .header img {
     height: 60px;
 }
-.links {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 19px;
-}
 .footer {
     width: 100%;
     background-color: #F6F6F6;
@@ -44,10 +38,24 @@ body {
     bottom: 0;
     text-align: center;
 }
-a {
-    color: black;
-    text-decoration: underline;
+.links {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 19px;
 }
-a:hover {
+.links p {
+    margin: 30px;
+}
+.links a {
+    color: black;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 25px 0;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+.links a:hover {
     font-weight: 700;
 }
