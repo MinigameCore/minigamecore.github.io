@@ -42,6 +42,7 @@ body {
     position: fixed;
     height: 27px;
     bottom: 0;
+    text-align: center;
 }
 a {
     color: black;
